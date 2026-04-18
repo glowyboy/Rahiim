@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import {
   Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupContent,
@@ -6,7 +5,6 @@ import {
 } from '@/components/ui/sidebar';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
 import {
   LayoutDashboard, Package, Users, Truck, ShoppingCart, Warehouse,
   Wallet, UserCog, Settings, LogOut, Package2, ShoppingBag,

@@ -12,7 +12,7 @@ import { Search, ShoppingBag, ChevronDown, ChevronRight } from 'lucide-react';
 const fmt = (n: number) => n.toLocaleString('fr-DZ') + ' DA';
 
 export function Purchases() {
-  const { sales, clients } = useApp();
+  const { sales } = useApp();
   const [search, setSearch] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');
   const [expandedId, setExpandedId] = useState<string | null>(null);
